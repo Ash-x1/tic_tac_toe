@@ -1,1 +1,1 @@
-# tic_tac_toe
+# Tic Tac Toe game for "The Odin Project" JavaScript lessons
