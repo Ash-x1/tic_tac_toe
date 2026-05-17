@@ -2,10 +2,24 @@
 
 * {
   font-family: 'Google Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #1D201F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 #reset-btn {
@@ -28,9 +42,9 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  width: 400px;
-  height: 400px;
-  margin: 20px;
+  width: min(85vw, 500px);
+  height: min(85vw, 500px);
+  margin: 20px 0;
 }
 
 #cell {
@@ -46,9 +60,11 @@ button:hover {
 }
 
 #score {
-  width: 400px;
-  height: 200px;
+  width: min(85vw, 450px);
+  height: auto;
+  min-height: 200px;
   background-color: #D9DCD6;
+  margin-bottom: 30px;
 }
 
 .p-one-cont,
