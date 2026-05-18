@@ -50,6 +50,12 @@ button:hover {
 #cell {
   border: 1px solid white;
   transition-duration: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #E2DFD0;
 }
 
 #cell:hover {
@@ -64,6 +70,7 @@ button:hover {
   height: auto;
   min-height: 200px;
   background-color: #D9DCD6;
+  border-radius: 10px;
   margin-bottom: 30px;
 }
 
